@@ -16,6 +16,8 @@ public class TC1 {
 		System.out.println("test");
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.xpath("//*[@id=\"pageFooter\"]/ul/li[2]/a")).click();
+		System.out.println("test");
+
 	}
 
 }
